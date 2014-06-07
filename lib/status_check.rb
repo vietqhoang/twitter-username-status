@@ -13,6 +13,6 @@ class StatusCheck
     end
 
     def self.alert
-        Email.send if username == :unavailable
+        Email.send if username == :available
     end
 end
