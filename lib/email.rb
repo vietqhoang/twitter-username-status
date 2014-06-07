@@ -5,17 +5,17 @@ class Email
 
         m = Mandrill::API.new
         message = {
-            subject:    'Hey Viet! Twitter username "viet" is available now.',
+            subject:    "Hey #{ENV['NAME'].capitalize}! Twitter username \"#{ENV['TWITTER_USERNAME']}\" is available now.",
             from_name:  'Your buddy',
             text:       'Get it!',
             to: [
                 {
-                    email:  'viet@tofugu.com',
-                    name:   'Viet Hoang'
+                    email:  ENV['EMAIL'],
+                    name:   ENV['NAME'].capitalize
                 }
             ],
             html:       '<strong>Get it!</strong>',
-            from_email: 'viet@tofugu.com'
+            from_email: ENV['EMAIL']
         }
 
         sending = m.messages.send message

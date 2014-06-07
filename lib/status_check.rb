@@ -4,7 +4,7 @@ require_relative 'email'
 
 class StatusCheck
     def self.username
-        url             = 'http://api.httpstatus.io/?url=http://www.twitter.com/viet'
+        url             = "http://api.httpstatus.io/?url=http://www.twitter.com/#{ENV['TWITTER_USERNAME']}"
         response        = HTTPClient.get(url)
         json_response   = JSON.parse(response.body)
         status_code     = json_response['result']['status_code'].to_i
