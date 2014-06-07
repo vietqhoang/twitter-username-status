@@ -14,7 +14,7 @@ class Email
                     name:   'Viet Hoang'
                 }
             ],
-            html: '<strong>Get it!</strong>',
+            html:       '<strong>Get it!</strong>',
             from_email: 'viet@tofugu.com'
         }
 
