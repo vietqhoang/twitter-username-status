@@ -17,5 +17,5 @@ Keeps an eye when a Twitter username is available. When available, sends an emai
     2. `NAME` The name to be used as email sender's name
     3. `TWITTER_USERNAME` Twitter username to keep watch
 6. Push app to Heroku
-7. Add `rake check_username_status' to Heroku Scheduler. Choose whatever frequency you want.
+7. Add `rake check_username_status` to Heroku Scheduler. Choose whatever frequency you want.
 8. Scale web dyno to 0 in to order avoid charges for using the one-off dyno from Heroku Scheduler.
