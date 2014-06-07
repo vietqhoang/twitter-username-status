@@ -1,6 +1,6 @@
 # Twitter Username Status
 
-Keeps an eye when a Twitter username is available. When available, sends an email alert. For my personal use only.
+Keeps an eye when a Twitter username is available. When available, sends an email alert. For my personal use.
 
 ## Required
 * Heroku (Free dyno)
