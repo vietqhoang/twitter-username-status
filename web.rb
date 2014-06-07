@@ -1,5 +1,6 @@
 require 'sinatra'
+require_relative 'lib/status_check'
 
 get '/' do
-    'You shall not pass!'
+    "Username is #{StatusCheck.username}"
 end
