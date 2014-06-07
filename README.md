@@ -6,7 +6,6 @@ Keeps an eye when a Twitter username is available. When available, sends an emai
 * Heroku (Free dyno)
 * Mandrill (Free Plan via Heroku Add-ons)
 * Heroku Scheduler (Free plan via Heroku Add-ons)
-* HTTP Status Code Checker (http://httpstatus.io/ via API)
 
 ## Installation
 1. Clone repo
