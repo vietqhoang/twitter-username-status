@@ -18,7 +18,6 @@ Keeps an eye when a Twitter username is available. When available, sends an emai
     2. `TWITTER_USERNAME` Twitter username to keep watch
     3. `TWITTER_API_KEY` Your Twitter application API key
     4. `TWITTER_API_SECRET` Your Twitter application API secret key
-
 6. Push app to Heroku
 7. Add `rake check_username_status` to Heroku Scheduler. Choose whatever frequency you want.
 8. Scale web dyno to 0 in to order avoid charges for using the one-off dyno from Heroku Scheduler.
