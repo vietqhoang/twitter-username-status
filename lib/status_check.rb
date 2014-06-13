@@ -12,9 +12,9 @@ class StatusCheck
 
             client.user(ENV['TWITTER_USERNAME'])
         rescue Twitter::Error::NotFound
-            :unavailable
+            :available
         else
-            :unavailable
+            :available
         end
     end
 
