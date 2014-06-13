@@ -11,7 +11,7 @@ class Email
             to: [
                 {
                     email:  ENV['EMAIL'],
-                    name:   'Twitter Username Available'
+                    name:   'You'
                 }
             ],
             html:       '<strong>Get it!</strong>',

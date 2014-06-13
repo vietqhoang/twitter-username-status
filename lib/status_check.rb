@@ -14,7 +14,7 @@ class StatusCheck
         rescue Twitter::Error::NotFound
             :available
         else
-            :available
+            :unavailable
         end
     end
 
